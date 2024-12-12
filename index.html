@@ -9,107 +9,106 @@
 </head>
 <body class="bg-gray-100">
     <!-- Header Section -->
-    <header class="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-3 flex flex-col items-center justify-center sticky top-0 z-10" style="height: auto; padding-top: 20px; padding-bottom: 20px;">
+    <header class="bg-gradient-to-r from-blue-400 to-purple-600 text-white p-4 sm:p-6 md:p-8 flex flex-col items-center justify-center sticky top-0 z-10">
         <div class="flex flex-col items-center space-y-4">
-            <img src="assets/S5.jpg" alt="Syntax Squad Logo" class="h-28 w-28 rounded-full shadow-lg">
-            <h1 class="text-5xl font-extrabold animate-title tracking-wide text-center">
+            <img src="assets/S5.jpg" alt="Syntax Squad Logo" class="h-24 w-24 rounded-full shadow-lg">
+            <h1 class="text-3xl sm:text-4xl font-extrabold animate-title tracking-wide text-center">
                 Welcome to the <span class="text-yellow-300">Syntax Squad</span>
             </h1>
         </div>
     </header>
 
-      <!-- Main Content -->
-<main class="py-12">
-    <div class="container mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Web Developers Card -->
-        <div class="bg-white rounded-xl shadow-lg transform transition-transform duration-500 hover:-translate-y-4 hover:shadow-2xl">
-            <div class="p-6">
-                <h3 class="text-2xl font-bold text-gray-800">Web Developers</h3>
-                <p class="text-gray-600 mt-2">Creating stunning websites using modern technologies.</p>
+    <!-- Main Content -->
+    <main class="py-12">
+        <div class="container mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Web Developers Card -->
+            <div class="bg-white rounded-xl shadow-lg transform transition-transform duration-500 hover:-translate-y-4 hover:shadow-2xl">
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold text-gray-800">Web Developers</h3>
+                    <p class="text-gray-600 mt-2">Creating stunning websites using modern technologies.</p>
+                </div>
+            </div>
+
+            <!-- DSA Enthusiasts Card -->
+            <div class="bg-white rounded-xl shadow-lg transform transition-transform duration-500 hover:-translate-y-4 hover:shadow-2xl">
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold text-gray-800">DSA Enthusiasts</h3>
+                    <p class="text-gray-600 mt-2">Solving problems and building efficient algorithms.</p>
+                </div>
+            </div>
+
+            <!-- Cloud Enthusiasts Card -->
+            <div class="bg-white rounded-xl shadow-lg transform transition-transform duration-500 hover:-translate-y-4 hover:shadow-2xl">
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold text-gray-800">Cloud Enthusiasts</h3>
+                    <p class="text-gray-600 mt-2">Mastering cloud platforms to innovate and scale solutions.</p>
+                </div>
             </div>
         </div>
+    </main>
 
-        <!-- DSA Enthusiasts Card -->
-        <div class="bg-white rounded-xl shadow-lg transform transition-transform duration-500 hover:-translate-y-4 hover:shadow-2xl">
-            <div class="p-6">
-                <h3 class="text-2xl font-bold text-gray-800">DSA Enthusiasts</h3>
-                <p class="text-gray-600 mt-2">Solving problems and building efficient algorithms.</p>
-            </div>
-        </div>
-
-        <!-- Cloud Enthusiasts Card -->
-        <div class="bg-white rounded-xl shadow-lg transform transition-transform duration-500 hover:-translate-y-4 hover:shadow-2xl">
-            <div class="p-6">
-                <h3 class="text-2xl font-bold text-gray-800">Cloud Enthusiasts</h3>
-                <p class="text-gray-600 mt-2">Mastering cloud platforms to innovate and scale solutions.</p>
-            </div>
-        </div>
-    </div>
-</main>
-
-
-       <!-- 3D Button -->
-       <div class="flex justify-center mt-12">
-           <button class="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-xl shadow-lg transform transition-all duration-300 hover:translate-y-1 hover:shadow-md active:translate-y-2 active:shadow-inner">
-               <a href="/projects.html">Explore More</a>
-           </button>
-       </div>
-
-        <!-- About Section -->
-        <section class="mt-16 container mx-auto">
-            <h2 class="text-3xl font-bold text-gray-800 text-center mb-8">About Us</h2>
-            <p class="text-gray-600 text-center max-w-4xl mx-auto">
-                Syntax Squad is a collaborative community of learners and developers who are passionate about technology. 
-                Our goal is to learn, grow, and innovate together by sharing knowledge and building impactful projects.
-            </p>
-        </section>
-
-   <!-- Members Section -->
-<section class="mt-16 container mx-auto px-6">
-    <h2 class="text-3xl font-bold text-gray-800 text-center mb-12">Our Team</h2>
-    <div id="members" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+    <!-- 3D Button -->
     <div class="flex justify-center mt-12">
-        <button id="loadMoreBtn" class="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-xl shadow-lg transform transition-all duration-300 hover:translate-y-1 hover:shadow-md active:translate-y-2 active:shadow-inner">
-            Load More
+        <button class="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-xl shadow-lg transform transition-all duration-300 hover:translate-y-1 hover:shadow-md active:translate-y-2 active:shadow-inner">
+            <a href="projects.html">Explore More</a>
         </button>
     </div>
-</section>
 
-      <!-- Footer -->
-<footer class="bg-gray-900 text-gray-300 p-8 md:p-12 mt-16">
-    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center md:text-left">
-        <!-- About Section -->
-        <div>
-            <h4 class="text-lg font-bold text-white mb-4">About Syntax Squad</h4>
-            <p class="text-gray-400 leading-relaxed">We are a community of passionate learners and developers collaborating and growing together.</p>
+    <!-- About Section -->
+    <section class="mt-16 container mx-auto">
+        <h2 class="text-3xl font-bold text-gray-800 text-center mb-8">About Us</h2>
+        <p class="text-gray-600 text-center max-w-4xl mx-auto">
+            Syntax Squad is a collaborative community of learners and developers who are passionate about technology. 
+            Our goal is to learn, grow, and innovate together by sharing knowledge and building impactful projects.
+        </p>
+    </section>
+
+    <!-- Members Section -->
+    <section class="mt-16 container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-gray-800 text-center mb-12">Our Team</h2>
+        <div id="members" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+        <div class="flex justify-center mt-12">
+            <button id="loadMoreBtn" class="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-xl shadow-lg transform transition-all duration-300 hover:translate-y-1 hover:shadow-md active:translate-y-2 active:shadow-inner">
+                Load More
+            </button>
         </div>
-        <!-- Contact Section -->
-        <div>
-            <h4 class="text-lg font-bold text-white mb-4">Contact Us</h4>
-            <p class="text-gray-400 leading-relaxed">Email: <a href="mailto:contact@syntaxsquad.com" class="hover:text-white">contact@syntaxsquad.com</a></p>
-            <p class="text-gray-400 leading-relaxed">Phone: <a href="tel:+1234567890" class="hover:text-white">+123-456-7890</a></p>
-            <div class="flex justify-center md:justify-start space-x-6 mt-4">
-                <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i> Facebook</a>
-                <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i> Twitter</a>
-                <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 p-6 sm:p-8 md:p-10 mt-16">
+        <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center md:text-left">
+            <!-- About Section -->
+            <div>
+                <h4 class="text-lg font-bold text-white mb-4">About Syntax Squad</h4>
+                <p class="text-gray-400 leading-relaxed">We are a community of passionate learners and developers collaborating and growing together.</p>
+            </div>
+            <!-- Contact Section -->
+            <div>
+                <h4 class="text-lg font-bold text-white mb-4">Contact Us</h4>
+                <p class="text-gray-400 leading-relaxed">Email: <a href="mailto:contact@syntaxsquad.com" class="hover:text-white">contact@syntaxsquad.com</a></p>
+                <p class="text-gray-400 leading-relaxed">Phone: <a href="tel:+1234567890" class="hover:text-white">+123-456-7890</a></p>
+                <div class="flex justify-center md:justify-start space-x-6 mt-4">
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i> Facebook</a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i> Twitter</a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+            <!-- Additional Links or Placeholder -->
+            <div>
+                <h4 class="text-lg font-bold text-white mb-4">Follow Us</h4>
+                <p class="text-gray-400 leading-relaxed">Stay connected with us on social media for the latest updates and insights.</p>
             </div>
         </div>
-        <!-- Additional Links or Placeholder -->
-        <div>
-            <h4 class="text-lg font-bold text-white mb-4">Follow Us</h4>
-            <p class="text-gray-400 leading-relaxed">Stay connected with us on social media for the latest updates and insights.</p>
+        <!-- Bottom Section -->
+        <div class="mt-8 text-center border-t border-gray-700 pt-4">
+            <p class="text-sm">© 2024 Syntax Squad. All rights reserved.</p>
         </div>
-    </div>
-    <!-- Bottom Section -->
-    <div class="mt-8 text-center border-t border-gray-700 pt-4">
-        <p class="text-sm">© 2024 Syntax Squad. All rights reserved.</p>
-    </div>
-</footer>
+    </footer>
 
-<!-- Scroll to Top Button -->
-<button id="scrollTopBtn" class="fixed bottom-6 right-6 bg-blue-500 text-white p-4 rounded-full shadow-lg hidden hover:bg-blue-600 focus:outline-none">
-    <i class="fas fa-arrow-up"></i>
-</button>
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="fixed bottom-6 right-6 bg-blue-500 text-white p-4 rounded-full shadow-lg hidden hover:bg-blue-600 focus:outline-none">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <script src="script.js"></script>
 </body>
